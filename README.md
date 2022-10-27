@@ -18,5 +18,7 @@ The script can be run in its entirety, or one section at a time, where one secti
 
 Individual figures representing the distribution of interneurons are interactive and the user can change the size of the guassian kernel resolution (expressed as a proportion of the SD of the data). The number of contour levels can be chosen and the data can be represented as either contours or dots. In individual experiments the position of motoneurons (when available) can be plotted or hidden.
 
+The supplements to Figure 12 can be reproduced one by one using the provided menu that allows to pick a method of transynaptic tracing, followed by one (or two) muscles. This will open a window in the corresponding directory that allows to pick one (or more) file for each muscles. If multiple files are chosen, they can be concatenated or overlapped in different shades of color. If one wants to overlay the two muscles in the double injection experiments, it is sufficient to pick one experiment from the first muscle and the one with the same name for the other muscle (for those experiemnts in which double injections were performed)
+
 A R executable version of the paper is available at https://mybinder.org/v2/gh/rronzano/Spinal_premotor_interneurons_controlling_antagonistic_muscles_are_spatially_intermingled.git/HEAD?urlpath=rstudio
  
