@@ -5,7 +5,7 @@ The code has been tested on Matlab version 2022a.
 In order to run the code, download to your local computer the entire list of the directories in the repository (data, data_raw, dependencies, m). The data and data_raw folders contain the whole set of data from the paper in normalized (data) and non normalized (data_raw) versions. THe 'data' folder contains the normalized coordinates for each experiment, with folder names coding muscle (LG,MG,TA,PL,GS), titre (high, low), neuron phenotype (exc, inh), method of transynaptic tracing (chat, Olig2, AAV_wt, AAV-chat, PRV)
 
 The folder 'dependencies' contains functions and classes required to run the code. You will have to add the folder 'dependencies' to your MATLAB path. 
-The folder 'm' contains two files that include the whole paper (Spinal_premotor_interneurons_are_intermingled.mlx) and its supplementary material (Spinal_premotor_interneurons_are_intermingled_supplementary.mlx). 
+The folder 'm' contains two files that include the whole paper (Spinal_premotor_interneurons_are_intermingled.mlx) and some data files required to plot the profile of the spinal cord. The subfolder 'split_figures' contains code for each individual figure split by panel (individual figure panels run faster than the whole manuscript file). The supplementary material are in Spinal_premotor_interneurons_are_intermingled_supplementary.mlx. 
 
 In the same directories, live scripts are provided for each figure panel separately (separate live scripts run more quickly than the script containing the whole paper)
 
